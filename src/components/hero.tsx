@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { ArrowUpRight, Star } from "lucide-react";
+
+import { Button } from "@/components/ui/button";
 
 import hero from "@/assets/hero.png";
 
@@ -21,45 +24,25 @@ export const Hero = () => {
           </p>
         </div>
         <div className="flex items-center gap-x-4">
-          <button className="bg-[#EBFA9E] px-8 py-[18px] font-sans font-medium capitalize text-[#454C5F]">
+          <Button className="h-14 rounded-none bg-[#EBFA9E] px-8 py-[18px] font-sans text-base capitalize text-[#454C5F] hover:bg-[#EBFA9E]/90">
             buy lemon
-          </button>
-          <button className="border border-[#E8E7EE] p-4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-6 stroke-[#1C2436]"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              />
-            </svg>
-          </button>
-          <button className="font-sans text-sm font-medium text-[#1C2436]">
+          </Button>
+          <Button
+            variant="outline"
+            className="size-14 rounded-none border-[#E8E7EE] p-4"
+          >
+            <ArrowUpRight size={24} color="#1C2436" />
+          </Button>
+          <Button
+            variant="ghost"
+            className="p-0 font-sans text-[#1C2436] hover:bg-transparent"
+          >
             Or view in Designer
-          </button>
+          </Button>
         </div>
         <div className="flex items-center gap-x-3">
           <div className="flex size-6 items-center justify-center bg-[#EBFA9E]">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="size-4 fill-[#2A514C]"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-              />
-            </svg>
+            <Star size={14} color="#2A514C" fill="#2A514C" />
           </div>
           <p className="font-sans font-normal text-[#454C5F]">
             Rated <span className="font-medium">4.9/5</span> from over{" "}
