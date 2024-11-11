@@ -1,4 +1,5 @@
 import { Banner } from "@/components/banner";
+import { Contents } from "@/components/contents";
 import { Features } from "@/components/features";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
@@ -10,7 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Features />
-      <div className="pb-[140px] pt-[124px]">lll</div>
+      <Contents />
     </div>
   );
 }

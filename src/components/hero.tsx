@@ -7,14 +7,14 @@ import hero from "@/assets/hero.png";
 
 export const Hero = () => {
   return (
-    <div className="container mx-auto flex max-w-[980px] gap-x-[70px] pb-32 pt-20">
+    <div className="container mx-auto flex max-w-[980px] justify-center gap-x-[70px] pb-32 pt-20">
       <div className="max-w-[404px] space-y-9">
         <div className="space-y-7">
           <div className="space-y-2">
             <h6 className="font-heading font-semibold uppercase text-[#454C5F]">
               Meet Lemon
             </h6>
-            <h1 className="font-heading text-7xl font-semibold text-[#1C2436]">
+            <h1 className="font-heading text-7xl font-semibold leading-tight text-[#1C2436]">
               Build a better site for your business.
             </h1>
           </div>
