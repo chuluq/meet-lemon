@@ -3,6 +3,7 @@ import { Contents } from "@/components/contents";
 import { Features } from "@/components/features";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
+import { LearnMore } from "@/components/learn-more";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Contents />
+      <LearnMore />
     </div>
   );
 }

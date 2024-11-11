@@ -8,7 +8,7 @@ import section1 from "@/assets/section-1.png";
 
 export const Contents = () => {
   return (
-    <div className="container mx-auto max-w-[980px]">
+    <div className="container mx-auto max-w-screen-lg">
       <div className="flex justify-center pb-[140px] pt-[124px]">
         <div className="max-w-[440px]">
           <div className="space-y-4">
