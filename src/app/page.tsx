@@ -5,6 +5,7 @@ import { Blog } from "@/components/blog";
 import { Contents } from "@/components/contents";
 import { CTA } from "@/components/cta";
 import { Features } from "@/components/features";
+import { Footer } from "@/components/footer";
 import { GetStarted } from "@/components/get-started";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
@@ -26,6 +27,7 @@ export default function Home() {
       <Blog />
       <Advantages />
       <CTA />
+      <Footer />
     </div>
   );
 }
