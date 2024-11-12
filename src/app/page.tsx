@@ -3,6 +3,7 @@ import { Banner } from "@/components/banner";
 import { BeautifulSites } from "@/components/beautiful-sites";
 import { Blog } from "@/components/blog";
 import { Contents } from "@/components/contents";
+import { CTA } from "@/components/cta";
 import { Features } from "@/components/features";
 import { GetStarted } from "@/components/get-started";
 import { Header } from "@/components/header";
@@ -24,6 +25,7 @@ export default function Home() {
       <BeautifulSites />
       <Blog />
       <Advantages />
+      <CTA />
     </div>
   );
 }
