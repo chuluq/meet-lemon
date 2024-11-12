@@ -1,6 +1,7 @@
 import { Banner } from "@/components/banner";
 import { Contents } from "@/components/contents";
 import { Features } from "@/components/features";
+import { GetStarted } from "@/components/get-started";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { LearnMore } from "@/components/learn-more";
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <Contents />
       <LearnMore />
+      <GetStarted />
     </div>
   );
 }
