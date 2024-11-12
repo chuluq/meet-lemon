@@ -12,7 +12,7 @@ export const GetStarted = () => {
   return (
     <div className="container mx-auto max-w-screen-lg">
       <div className="flex justify-center pb-40 pt-[140px]">
-        <Image alt="section2" src={section2} />
+        <Image alt="section-2" src={section2} />
         <div className="max-w-sm space-y-6">
           <div className="space-y-4">
             <h6 className="font-heading font-semibold uppercase text-[#586174]">

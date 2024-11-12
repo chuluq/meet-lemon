@@ -1,4 +1,5 @@
 import { Banner } from "@/components/banner";
+import { BeautifulSites } from "@/components/beautiful-sites";
 import { Contents } from "@/components/contents";
 import { Features } from "@/components/features";
 import { GetStarted } from "@/components/get-started";
@@ -18,6 +19,7 @@ export default function Home() {
       <LearnMore />
       <GetStarted />
       <Review />
+      <BeautifulSites />
     </div>
   );
 }
