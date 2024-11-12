@@ -1,5 +1,7 @@
+import { Advantages } from "@/components/advantages";
 import { Banner } from "@/components/banner";
 import { BeautifulSites } from "@/components/beautiful-sites";
+import { Blog } from "@/components/blog";
 import { Contents } from "@/components/contents";
 import { Features } from "@/components/features";
 import { GetStarted } from "@/components/get-started";
@@ -20,6 +22,8 @@ export default function Home() {
       <GetStarted />
       <Review />
       <BeautifulSites />
+      <Blog />
+      <Advantages />
     </div>
   );
 }
