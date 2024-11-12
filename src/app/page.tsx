@@ -5,6 +5,7 @@ import { GetStarted } from "@/components/get-started";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { LearnMore } from "@/components/learn-more";
+import { Review } from "@/components/review";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Contents />
       <LearnMore />
       <GetStarted />
+      <Review />
     </div>
   );
 }
